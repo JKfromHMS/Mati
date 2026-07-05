@@ -16,4 +16,8 @@ V0.0.3:
     And the correct rows and columns are marked.
 
 V0.0.4:
+    Now you can dimm a cell with a right click.
+    If you clicked the expected sum, every unclicked cell get marked automatically.
+
+V0.0.5:
     
