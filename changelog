@@ -1,0 +1,15 @@
+V0.0.0:
+    Open the game, being in the game.
+    After a victory, need to close and restart for another.
+
+V0.0.1:
+    Open the game, being in the menu.
+    Start a game and play it, with more efficient algorithems.
+    After a victory, need to close and restart for another.
+
+V0.0.2:
+    Open the game, being in the menu.
+    Start a game with a decision if 4; 5 or 6 rows and colmns and return to the menu whenever you want.
+    Every draw is with the new method.
+    
+V0.0.3:
