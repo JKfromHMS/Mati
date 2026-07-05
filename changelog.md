@@ -20,4 +20,13 @@ V0.0.4:
     If you clicked the expected sum, every unclicked cell get marked automatically.
 
 V0.0.5:
-    
+    Fixed a bug which made it unpossible to play 6x6 more elegant.
+    Fixed a bug which disabled the auto dim.
+    Added Settings and About
+
+V0.0.6:
+    Now you can have a timer in the right top corner.
+  
+       
+            
+        
