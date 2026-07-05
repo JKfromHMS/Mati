@@ -8,8 +8,12 @@ V0.0.1:
     After a victory, need to close and restart for another.
 
 V0.0.2:
-    Open the game, being in the menu.
-    Start a game with a decision if 4; 5 or 6 rows and colmns and return to the menu whenever you want.
-    Every draw is with the new method.
-    
+    Start a game with a decision if 4; 5 or 6 rows and columns and return to the menu whenever you want.
+    Every draw is with the new methods.
+
 V0.0.3:
+    Now the grid is bordered.
+    And the correct rows and columns are marked.
+
+V0.0.4:
+    
