@@ -1,5 +1,5 @@
 ### Mati (Mathematics and tactic intelligence) ###
-### V0.0.1 Beta V1.0.1 ###
+### V0.0.2 Beta V1.0.2 ###
 ### Author: Janosch Klawatsch, 05.07.2026 ###
 
 ### --- Imports --- ###
