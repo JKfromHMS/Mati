@@ -26,6 +26,14 @@ V0.0.5:
 
 V0.0.6:
     Now you can have a timer in the right top corner.
+    This timer can have just mins and secs or also milis.
+
+V0.0.7:
+    New Features:
+        History System. You know see your past games that are saved in a .mati file that type of data was designed for this project.
+
+    Bug Fixes:
+        Line 63: return new Level, before it was not helping anything.
   
        
             
