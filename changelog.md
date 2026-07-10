@@ -35,6 +35,11 @@ V0.0.7:
     Bug Fixes:
         Line 63: return new Level, before it was not helping anything.
   
-       
-            
-        
+V0.0.8:
+    The Code was splitt into 7 files.
+    Added Cross Highlighting for cell hover
+    Added hints with gold border for the time they appear
+    Added a undo button
+    Added a quick restart
+    Added a 7x7 game grid
+    Added a delete feature to the history view
