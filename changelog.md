@@ -43,3 +43,7 @@ V0.0.8:
     Added a quick restart
     Added a 7x7 game grid
     Added a delete feature to the history view
+
+V0.0.9:
+    Renamed pygame as pg and config as con
+    Added audio.py which creates audios for the game
