@@ -47,3 +47,10 @@ V0.0.8:
 V0.0.9:
     Renamed pygame as pg and config as con
     Added audio.py which creates audios for the game
+
+V0.1.0:
+    Turn of audio manual got possible
+    Resize the window and fullscreen it
+    better view of history detail
+    filters for history
+    # Still a problem with dimm in history detail, only manual dims are shown
