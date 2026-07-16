@@ -59,3 +59,12 @@ V0.1.1:
     Fixed that dimm bug
     Moved more constants to the config
     # Found a graphic mistake when resizing
+
+V0.1.2:
+    Fixed:
+        To scroll threw history is possible again
+        Time is calculated right
+        action names correct again
+        fullscreen posibile
+        ms not clickable without timer
+    Redesigned 7x7 game positioning and history detail information
