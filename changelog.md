@@ -54,3 +54,8 @@ V0.1.0:
     better view of history detail
     filters for history
     # Still a problem with dimm in history detail, only manual dims are shown
+
+V0.1.1:
+    Fixed that dimm bug
+    Moved more constants to the config
+    # Found a graphic mistake when resizing
