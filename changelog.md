@@ -68,3 +68,13 @@ V0.1.2:
         fullscreen posibile
         ms not clickable without timer
     Redesigned 7x7 game positioning and history detail information
+
+V0.2.0:
+    You now have a terminal.
+    In this terminal you have an ultra mode.
+    The ultra mode is like normal game but with text commands instead of clicks.
+    You have now a filter option for ultra games
+    Ultra mode games look a little different.
+    
+V0.3.0:
+    
