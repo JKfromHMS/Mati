@@ -82,3 +82,17 @@ V0.3.0:
     statistic mode in the terminal
     setting save automatically 
     you can control the normal game with your keyboard
+
+V0.3.1:
+    Added more letters that can be interpreted and sorted them alphabetic
+    In game Space and Return also counts as left clicks
+    In menus Return counts as left click
+    Removed unneeded code spots and make them more efficent
+    Made the stats look better and added to the help command
+    Corrected error in the resume game screen, which make it broke, if you click the back button
+    Added more terminal commands to jump direct from the terminal into history, settings, the games and about
+    Better way to get the screen to max size
+    Started with audio.py to make the file PEP8 conform and deleted many comments, because they are clear for developpers.
+    Generated audio_explained.py which have the same code and is just used to explain the code if questions appear that regulary comes because you haven't work with this type of code
+    Added the first easter egg
+    Keyboard handling in pause menu works
