@@ -96,3 +96,38 @@ V0.3.1:
     Generated audio_explained.py which have the same code and is just used to explain the code if questions appear that regulary comes because you haven't work with this type of code
     Added the first easter egg
     Keyboard handling in pause menu works
+
+V0.3.2:
+    Now you can see your stats threw the terminal again.
+    Now only games in which you have done something are saved as paused games you can continue
+    Now also the ultra games are saved correctly and with every action
+    Now you can write play out again in the terminal
+    Now the wrong unknown command c message after resuming a game in ultra mode disappeard
+    Now it does not matter anymore if a command has spaces in between or not (at least for those this is wanted)
+    Now the check for play starts, normal and ultra, and also for leaving the terminal is way more efficient thank to hash
+    Now the time code is more simplyfied
+    Now you can find a second easter egg
+    Now you can with ptl (play time long) see even over a minute your excate game time in terminal
+    Now you have a new stats looks that changes itself automatically to the number of your playes
+    Now you automatically are on continue when ypu pause the game
+    Now Strg/Cmd n activates new match, like you would pressed the button
+    Now every in game terminal is closed correctly when wanted
+    Now Strg/Cmd m brings you back to menu everywhere you are
+    Now you can use up and down arrow to navigate threw your command history in terminal
+    Now stats show your real data and do not calculate the minutes out
+    Now terminal input are way more efficient
+    Now ultra games are way more efficient
+    Now terminal commands are way more efficient
+
+    Now the normal process of the programm also runs with match case, which makes the whole programm faster and more efficient
+    Now the saving of mati files is faster
+    Now you can see the empty grid in history
+    Now the buttons in the normal game have a new position
+    Now you can activate a clock in the right top corner
+    Now you can scroll threw the terminal, if needed to see everything
+    Now you can go with left and right arrow threw your terminal entry instead of deleting everything
+    Now you can see the scrollbars (even though they are bad positionated and still not clickable)
+    Now the keyboard hover starts at the keyboard hover button after activating it
+    Now you can trigger a scroll action multiple times by holding the key
+    Now you have a basic every round time view in ultra game (not really helping yet)
+
