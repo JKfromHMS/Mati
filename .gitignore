@@ -3,6 +3,7 @@ need to add.md
 Bugs need to fix
 settings.smati
 /history
+/exports
 /V0.0.8/__pycache__
 /V0.0.9/__pycache__
 /V0.1.0/__pycache__
@@ -12,5 +13,7 @@ settings.smati
 /V0.3.0/__pycache__
 /V0.3.1/__pycache__
 /V0.3.2/__pycache__
-/V0.4.0/__pycache__
 /V0.4.0
+/V0.4.0.1/__pycache__
+/V0.4.0.1/doc_export.md
+

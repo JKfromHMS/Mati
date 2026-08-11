@@ -118,7 +118,6 @@ V0.3.2:
     Now terminal input are way more efficient
     Now ultra games are way more efficient
     Now terminal commands are way more efficient
-
     Now the normal process of the programm also runs with match case, which makes the whole programm faster and more efficient
     Now the saving of mati files is faster
     Now you can see the empty grid in history
@@ -131,3 +130,51 @@ V0.3.2:
     Now you can trigger a scroll action multiple times by holding the key
     Now you have a basic every round time view in ultra game (not really helping yet)
 
+V0.4.0:
+    Now the alphabet is finished (every letter got a blueprint)
+    Now finding letters is more efficent thanks to match case instead of if else
+    Now every action is marked correctly in history detail
+    Now you can export your played games as a mp4 video file.
+    Now the start entry in history detail is focusable
+    Now the keyboard navigation is better structured and easier to understand where the focus will go next (now its hardcoded)
+    Now the help command is splitted, so you get just the information you want.
+    Now the time in the terminal ticks automatically.
+    Now you have a wait screen while the video is being exported, so you know what is happening.
+    Now you can enter the stats also via a graphic interface and also about, history and settings in the terminal.
+    Now you can finally click on the scrollbars and drag them around.
+    Now the ultra mode also has in the exported video a unique design.
+    Now you can set the location in which your exported mp4 should be saved.
+    Now the mati and smati files has a new method to make them uneditable without the programm, so that cheating is not longer possible on this way.
+    Now the game scrolls automatically in the hannah easter egg to make it more easy to play the next.
+
+V0.4.0.1:
+    Now strg + m brings you also out off the stats screen to the main menu.
+    Now the settings have a new and better design.
+    Now the settings have keyboard navigation again.
+    Now the settings have a second mode for players which wasn't in the terminal.
+    Now the graphic stats view has keyboard navigation support.
+    Now the buttons in history detail fit better.
+    Now the history detail menu is a menu without the live clock.
+    Now the history detail view has a new action button design.
+    Now the ultra live clock is freed from the ultra timer control while deactivating.
+    Now you can jump to the back button from every tile in hannah view.
+    Now more if else questions are replaced with the more modern and efficient match case.
+    Now the Bug that a undone action is not longer shown as undone, is fixed.
+    Now the undone logic threw dopple clicking is correct.
+    Now you can see undone actions in history detail and in your videos correctly.
+    Now the terminal version of about lookes better.
+    Now you can also change the settings via terminal and not just see them in it.
+    Now the terminal settings have the same secure features like the normal.
+    Now the terminal has also a clock.
+    Now the terminal has a header system that make it easier to say where you are.
+
+    Now change live clock terminal works right and stopped triggering live clock as well.
+    Now the terminal counts the time correct again and is not between 1ms up to 16ms delayed.
+    Now the terminal have a help settings command to find out which commands you have.
+    Now the settings have a new algorithem to say where to jump from the back (menu) button, so you return to where you come from if you press the otherwise direction.
+    Now exporting the videos in other sizes works bug free, but still takes very long.
+    Now the hannah easter egg also have this algorithem, so you can also navigate more easyly threw this.
+    Now the history detail screen also has this algorithem, so it get possible to leave faster.
+    Now if you haven't open the terminal and are in the settings on keyboard navigation it jumps back to the button under it from where you came up. (Also on many other split buttons)
+    Now the navigation threw history is more reliable.
+    Now the code has a first entry for a new achievment-system.
