@@ -177,4 +177,27 @@ V0.4.0.1:
     Now the history detail screen also has this algorithem, so it get possible to leave faster.
     Now if you haven't open the terminal and are in the settings on keyboard navigation it jumps back to the button under it from where you came up. (Also on many other split buttons)
     Now the navigation threw history is more reliable.
-    Now the code has a first entry for a new achievment-system.
+    Now the code has a first entry for a new achievement-system.
+
+V0.5.0:
+    Now the terminal and the normal game have a achievement system.
+    Now the keyboard navigation focus jumps after you gone back automatically to the button with it you left the other screen.
+    Now while scrolling threw actions in history detail via keyboard naviagtion, the upper half of the buttons are visible again.
+    Now the exported videos stop highlighting the last made move after 1.5s.
+    Now the history detail grid is centered and the action view under it got a redesign based on the origional 7x7 design.
+    Now the focus jump problem after leaving and returning in a history detail view is fixed.
+    Now the stats only show ultra games if they are already unlocked.
+    Now the keyboard navigation works fine also for the case the player has not unlocked the terminal.
+    Now the setting texts are centered if the terminal is not found.
+    Now the terminal help commands include ptl (play time long) and achievements
+    Now history in the terminal has an own filter and sort feature.
+    Now history in terminal also got a new design.
+    Now you can name your mp4 file in the moment you export them. Also you now can really define the folder.
+    Now the normal stats look better.
+    Now the terminal can play sound if wanted after every tip and every submit.
+    Now the exported vieos just have half their size with same quality and need less time to be exported.
+    Now the code structur got more clear, more fix values into config.
+    Now the achievements in normal mode got a rework and now are more.
+    Now the history buttons are placed new to make the keyboard hover jump more clear.
+    Now the scrollbars go to the ends of their fields right.
+    Now the scrollbar navigation workes better.
