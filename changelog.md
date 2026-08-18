@@ -201,3 +201,17 @@ V0.5.0:
     Now the history buttons are placed new to make the keyboard hover jump more clear.
     Now the scrollbars go to the ends of their fields right.
     Now the scrollbar navigation workes better.
+
+V0.5.1:
+    Now the filter command names are more logic.
+    Now the terminal history has an own help menu.
+    Now the terminal is more efficient.
+    Now the keyboard navigation smart next focus works better and in more menus.
+    Now the ultra filter button in history is like all other ultra things visible starting with the moment the terminal got opened once.
+    Now the navigation with keyboard naviagtion threw history got more reliable.
+    Now the achievement screen works with two ways to navigate. You can use your mouse and click on the magic appearing buttons to clock them or jsut press left, right on your keyboard.
+    Now to pause finally also works in the ultra game.
+    Now you have the possibility to activate three reached on (tro), what makes that the system automatically submit if you tipped p, b, or an navigation command like 41r in.
+    Now the historytext also accepts clear names means under time instead of under_time.
+    Now the sort by has more commands to make using it more natural.
+    Now the structur plan is corrected
