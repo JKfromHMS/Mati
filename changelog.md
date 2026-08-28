@@ -215,3 +215,40 @@ V0.5.1:
     Now the historytext also accepts clear names means under time instead of under_time.
     Now the sort by has more commands to make using it more natural.
     Now the structur plan is corrected
+
+V0.6.0:
+    Now the Game has also in the graphic version the possibility to turn the terminal sounds on and off.
+    Now the game has advanced settings screen.
+    Now the game let you control the volume of the sounds.
+    Now the game let you control the keys you want to use to for example restart a match.
+    Now the game has the possibility to have other languages then English.
+    Now you can enter the advanced settings screen by pressing strg and arrow right in settings
+    Now the actions are also for the action ... input available.
+    Now in terminal the history text describing the used filters is more accurat.
+    Now the new advanced settings have a little new design.
+    Now the sort algorithem got a new commands.
+    Now the sort commands got a deeper filter system to get more efficiency. This system also converts more commands.
+    Now the system uses converter tabells, still intern, to be even more efficient.
+    Now just working filters got be shown as filters in used, other are just left out.
+    Now the help menues are updated with the new commands.
+    Now the game partly have a feature list.
+    Now the game also shows the new/other languages in more menus.
+    Now the generation of the history detail action show is more efficient.
+    Now also games get drawn a little more efficient.
+    Now the graphical game runs also completely in the German language.
+    Now the game is a little more efficient.
+    Now the video export is more efficient.
+    Now the individual keybinding system work.
+    Now the export.py is fine due PEP 8 and PEP 257.
+    Not the audio.py is fine due PEP 8 and PEP 257.
+    Now is exporting a video much more efficient and fast, it also draws the border now really around the grid and not slighly over it.
+    Now the bug, that text elements was ovver each other in achievements is fixed.
+    Now the game is also available in French and Spanish.
+    Now the achievements page 1 screen has two tiles one for the number of games and the other for the played time.
+    Now the languages are corrected and extended so that the new page one and keychages are labeled right.
+    Now the pause menu show the key you need to leave the pause menu correct.
+    Now also your own shortcuts can contain alt, ctrl, shift or meta on devices blessed with this button (Macs).
+    Now you can also leave the advanced settings by pressing arrow left with ctrl or meta.
+
+V0.6.1:
+    
