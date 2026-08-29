@@ -251,4 +251,14 @@ V0.6.0:
     Now you can also leave the advanced settings by pressing arrow left with ctrl or meta.
 
 V0.6.1:
-    
+    Now the code of screen.py is moved into screens.py for the real drawing of the screens and object on them, helpers.py for the buttons and overall help functions and alt_hover.py for everything containing the keyboard navigation hover for the graphical game.
+    Now the code is little more efficient and has an even clearer structure.
+    Now the setting buttons have their own colors to make it easier to see if something is enabled or not.
+    Now the keyboard navigation hover is corrected for the history screen.
+    Now the scrollbar track of history is going to the bottom.
+    Now the settings achievement jump keyboard navigation hover is more reliable.
+    Now the scrollbars have a new design.
+    Now the advanced settings are controlable with the keyboard navigation.
+
+V0.6.2:
+
