@@ -261,4 +261,26 @@ V0.6.1:
     Now the advanced settings are controlable with the keyboard navigation.
 
 V0.6.2:
+    Now the overall achievements have own names, which means the complicated rename algorithems can be removed.
+    Now a bug that made the achievements time do not work correctly is fixed.
+    Now the bug that detail history destination ways are saved threw different detail history screens is fixed.
+    Now the achievements in terminal are finally up to the newest version.
+    Now the terminal got a lot more commandhandling possibility what made it understand more off your commands even if they are not the expected ones.
+    Now the history scroll is finally identical between autoscroll mouse or trackpad scroll and dragging the scrollbar track.
+    Now the terminal achievements have the possibility to be left into a game.
+    Now the <> in the achievements screen in graphics have better designs.
+    Now the terminal also react to the set settings for the entry order for the ultra game.
+    Now the alt_hover moving wrong bug for the achievements screen is fixed.
+    Now the first page of the graphical achievements has a new unique design.
+    Now the help commands in the terminal are optimized and are looking better.
 
+    Now the holding from keys finally also works with the relevant one into the terminal, means backspace and the arrow.
+    Now the history version in the terminal finally has an adaptation for longer games. If you want to break it, you need a game as long as 1000 minutes, or something about 17 hours.
+
+V0.6.3:
+    Now there is a button file that handles buttons as a class to save resources and make it easier to handle.
+    Now the borders are drawn around the grid instead of like before above parts of it.
+    Now the codebase is switched to a more modular system threw an own button class.
+
+V0.7.0:
+    
