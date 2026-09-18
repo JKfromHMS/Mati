@@ -1,31 +1,9 @@
 /.vscode
 need to add.md
 Bugs need to fix
-feature list
-settings.smati
+
 /history
 /exports
-/rsc/languages/tlhIngan_Hol.smati
-/legacy versions/V0.0.0-0.1.1/V0.0.8/__pycache__
-/legacy versions/V0.0.0-0.1.1/V0.0.9/__pycache__
-/legacy versions/V0.0.0-0.1.1/V0.1.0/__pycache__
-/legacy versions/V0.0.0-0.1.1/V0.1.1/__pycache__
-/legacy versions/V0.1.2/__pycache__
-/legacy versions/V0.2.0/__pycache__
-/legacy versions/V0.3.0/__pycache__
-/legacy versions/V0.3.1/__pycache__
-/legacy versions/V0.3.2/__pycache__
+
 /legacy versions/V0.4.0
-/V0.4.0.1/__pycache__
-/V0.4.0.1/doc_export.md
-/V0.5.0/__pycache__
-/V0.5.1/__pycache__
-/V0.6.0/__pycache__
-/V0.6.0/create_language_klingon.py
-/V0.6.1/__pycache__
-/V0.6.1/create_language_klingon.py
-/V0.6.2/__pycache__
-/V0.6.2/create_language_klingon.py
-/V0.6.3/__pycache__
-/V0.6.3/create_language_klingon.py
-/V0.7.0
+/V0.7.xxx

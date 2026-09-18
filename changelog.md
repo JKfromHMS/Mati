@@ -282,5 +282,30 @@ V0.6.3:
     Now the borders are drawn around the grid instead of like before above parts of it.
     Now the codebase is switched to a more modular system threw an own button class.
 
-V0.7.0:
-    
+V0.7.0-V0.7.1.2:
+    Now more of the code has docstrings and introducing describtions to make it better and easier to expand.
+    Now the video export got chapters, so you still know the time of every action after exporting it.
+    Now the game has not just sound effects but also menu, play and terminal music that is like the soundeffects generated in the game itself so you can stream the game without fears of copyright.
+    Now a little bug is fixed that make the hannah easter egg crash the game after finishing one tile.
+    Now the export feature can run in the background, even though it is then a little slower.
+    Now the exports has its own history with its can tell you if you already had downloaded a match.
+    Now you can see your export history and also your active playes threw the terminal.
+    Now you have a first version of analysis of your recent played games.
+    Now the stats are buttons to sort after.
+
+    Now the game runs much more efficient, because of adaptive framing.
+    Now the header buttons into the stats are enabled for keyboard navigation control.
+    Now the code got a clearer structure.
+    Now the sort by algorithem accepts more variations of the words.
+    Now two little bugs are removed that made that command handling got worse.
+    Now fps handling works better, so that every animation runs even smoother then before.
+    Now a little bug, that the pop up appearces everywhere is fixed.
+    Now toggling fullscreen works better.
+    Now the game looks better, because of live scaling.
+    Now the clocks and the timers runs at different calculations, that means the game is more efficient.
+    Now the game has an tutorial.
+    Now the clock is hidding a fast tutorial. 
+
+The Public Beta Code contains modifies for os compatibility reasons.
+Furthermore it is written with less code, because it do not contain unused functions and 
+other thing like that that should be added in a while.
