@@ -14,7 +14,7 @@ Current version: **V0.7.1.2 (Beta V1.0.30)**.
 
 Public_Beta_1.0.0_(1.0.30) is the codebase.
 
-To just run the application dopple click on MATI.exe
+To just run the application on Windows dopple click on MATI.exe
 
 If you are on another operation system, you need to run it manually
 or more likely do not give a feedback on this project, because it 
@@ -157,7 +157,9 @@ On some systems, sound may be disabled or behave differently if the mixer cannot
 - **Python standard library**, including `tkinter` used for native file dialogs during save/export flows.
 - **Author:** Janosch Klawatsch (Jay/JKfromHMS).
 
-Language-related scripts can generate supplementary translation packs for German, Spanish, and French. The built-in fallback language is English. Translations are created with help of online dictionaries, so wrong translations are possible.
+Language-related scripts can generate supplementary translation packs for German, Spanish, and French. The built-in fallback language is English. Translations are created with help of online dictionaries and AI, so wrong translations are possible.
+
+Overall the usage of AI was kept in ideas and debugging. So the AI was in form of GitHub Copilot there to complete lines and in the form of Google Gemini to provide help and working as a dictionary if I want to know how something is basically possible.
 
 ---
 
