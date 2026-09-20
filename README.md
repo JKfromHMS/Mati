@@ -1,6 +1,6 @@
 # Mati
 
-**Mati** is a desktop number-puzzle game for Windows, macOS, and Linux, built with Python and **Pygame**.
+**Mati** is a Sudoku-like puzzle game in which you can either practice your math skills or refresh your terminal gaming experience.
 
 Current version: **V0.7.1.2 (Beta V1.0.30)**.
 
@@ -12,140 +12,66 @@ Current version: **V0.7.1.2 (Beta V1.0.30)**.
 
 ## Try Mati
 
-Public_Beta_1.0.0_(1.0.30) is the codebase.
+[Download-Page](https://github.com/JKfromHMS/Mati/releases)
 
-To just run the application on Windows dopple click on MATI.exe
+To run the application on **Windows**, simply download and double-click MATI.exe.
 
-If you are on another operation system, you need to run it manually
-or more likely do not give a feedback on this project, because it 
-uses graphic methods for windows, so it looks different and not as
-wanted on the other OS:
+### Operating System Support:
+Please note that ready-to-run executables are currently **only available for Windows**. The game uses Windows-specific methods, so running it on other OS can cause visual glitches and issues.
 
-For other languages run the corresponding language file
-and again the main file.
+If you are not able to test it on Windows but really want to, you need to build it manually. In this case please do not rate it bad for rendering and graphic issues.
 
+### Language Settings:
+To change the language ingame, run the corresponding language file first, launch the main file again, open advanced settings select it (click on current language will open a dropdown).
 
+---
 
 ## Features
 
-- **Grid puzzles** from **4×4 up to 7×7**, with Easy, Normal, Hard, and Custom difficulties.
-- **Undo, hints, timers, and keyboard controls** during a match.
-- **Match history and achievements**, with saved game files and detail views.
+- **4 Grid sizes** from **4x4** up to **7x7**.
+- **Keyboard Mode** to control the full game **without mouse or trackpad**.
+- **History** to see your recent matchs.
 - **MP4 video export** of completed matches with selectable quality and frame rate.
-- **Procedurally generated sound effects**, with no external audio assets required.
-- **Localisation support** with an English fallback and supplementary German, Spanish, and French language scripts.
-- **Scalable rendering and extra game features**, including Auto/1x/2x/4x scaling, a tutorial, hidden terminal, and easter eggs.
+- **Sin-Wave Sound Effects** to give the game an audio touch without copyright issues.
 
 Wanna see more features? -> They are in the features.md.
 
 ---
 
-## Quick Start
-
-Mati currently does not ship with a `requirements.txt` or `pyproject.toml`, so the runtime dependencies are installed directly with pip.
+## Run is locally
 
 ### Prerequisites
 
 - **Python 3.10+** — the code uses `match` statements and modern type annotations.
 - **Pygame**, **NumPy**, and **PyAV (`av`)**.
-- **tkinter** is also used by the standard library for native file dialogs during save/export operations.
+- **tkinter** (included automatically if not on Linux)
 
 ### Run
 
 From the folder containing `main.py`:
 
 ```bash
-python -m pip install pygame numpy av
+pip install pygame numpy av
 python main.py
 ```
 
-Supplementary language packs are optional. The corresponding creator scripts, such as `create_language_de.py`, are not required to launch the game.
+Language scripts like `create_language_de.py`, are not required to launch the game, but they cana be used to create a translation to select ingame.
 
 ---
 
 ## How It Works
 
-### Rendering model
+### Level generation 
 
-Mati renders internally at a fixed virtual resolution of **800×600** and then scales that image to fit the real window. Scaling modes are:
+This is the **main algorithem** and works like this:
 
-- **Auto** — fits the largest 4:3 area into the window using smooth scaling.
-- **1x / 2x / 4x** — integer upscaling with nearest-neighbour scaling for crisp pixel-like rendering.
-
-Text rendering is cached and can be supersampled at higher quality settings, then downscaled to the logical text size for crisper glyphs.
-
-### Gameplay loop
-
-The main module (`main.py`) owns the top-level state machine. Different screens are drawn depending on `game.state`, including menus, settings, statistics, achievements, history, gameplay, tutorial, and the hidden terminal.
-
-Input handling distinguishes mouse interaction from keyboard navigation, with optional keyboard-navigation mode and focus tracking. There is also a jump-back system and scroll handling for history and detail views.
-
-### Level generation and win checking
-
-Levels are generated in `level.py` and include logic for generating puzzles, checking wins, and finding hints. The visual grid, row/column sums, selection state, and dimming are managed in the game module and drawn by the screens/widgets layer.
+- creates a list of numbers
+- selects a few at random
+- sums all chosen numbers across each row and column.
 
 ### Sound
 
-Sound effects are generated procedurally in `audio.py` by synthesising stereo sine-wave tones with short fades instead of loading audio files from disk. The mixer is initialised at the configured sample rate. Sounds can be enabled or disabled globally, and terminal sounds can be toggled separately.
-
-### Persistence
-
-Saved games and settings use a small custom format in `persistence.py`:
-
-1. Data is serialised as JSON.
-2. The JSON is compressed with zlib.
-3. The compressed bytes are XOR-obfuscated with a fixed key (`Mati_Obfuscation_Key_2026`).
-4. The result is base64-encoded into a text blob and stored in `.mati` / `.smati` files.
-
-This is not intended as strong security; it is a lightweight way to make saved data less directly editable.
-
-### Video export
-
-When a match is exported, `export.py` renders the recorded match frames and mixes them with procedurally generated audio, then encodes an MP4 via **PyAV**. Export options include quality scaling and frame rate selection. Export can run in a modal-like overlay while the rest of the application keeps running.
-
-### Adaptive redraw and performance hooks
-
-The main loop contains adaptive redraw timing helpers for live clocks, timers, and terminal-style clocks, along with cache keys for redraw gating based on window size, mouse position, export progress, and clock/timer text changes. Scrollbars have visibility timing, and there are key-repeat delays for hold-to-repeat behaviour.
-
----
-
-## Installation and Local Development
-
-### Repository structure
-
-The release folder `V0.7.1.2` contains the main game code:
-
-- `main.py` — entry point and main event loop
-- `game.py` — game state, match logic, and event handling
-- `level.py` — level generation and win checking
-- `screens.py` — screen drawing logic
-- `widgets.py` — widget drawing helpers
-- `buttons.py` — button definitions
-- `alt_hover.py` / `alt_hover1.py` — alternate hover / focus behaviour
-- `audio.py` — procedural sound generation
-- `export.py` — MP4 video export
-- `persistence.py` — save/load for `.mati` / `.smati` files
-- `replay.py` — game replay reconstruction
-- `terminal.py` — hidden terminal feature
-- `tutorial.py` — tutorial screen
-- `helpers.py` — shared helpers
-- `lang.py` — translation loading and lookup
-- `config.py` — central constants and defaults
-
-Language packs live under `rsc/languages`. Supplementary language builder scripts are included next to the runtime code, for example `create_language_de.py`, `create_language_es.py`, and `create_language_fr.py`.
-
-### Configuration and runtime behaviour
-
-Configuration lives in `config.py` and is loaded at runtime. There is no `.env` file required. The game stores user settings, stats, and match history in its own data files (`.mati`, `.smati`, plus an export history file) in the working directory or under a local `history/` folder.
-
-Important defaults from the code:
-
-- Internal render size is **800×600** (4:3), then scaled to the window.
-- Audio sample rate is **44100 Hz**.
-- Exported video default is **30 FPS**, with selectable 30/60 FPS options.
-- Default language is **English** (`english`), with a built-in fallback if a chosen language pack is missing.
-
-On some systems, sound may be disabled or behave differently if the mixer cannot initialise; the game handles sound initialisation failures by marking sound as unavailable rather than crashing.
+Because at my last years project had problems due copyright issues I decided to not want to get into trubble again, so Mati uses **Sin-Waves** to create every sound effect and even the background music.
 
 ---
 
@@ -157,9 +83,11 @@ On some systems, sound may be disabled or behave differently if the mixer cannot
 - **Python standard library**, including `tkinter` used for native file dialogs during save/export flows.
 - **Author:** Janosch Klawatsch (Jay/JKfromHMS).
 
-Language-related scripts can generate supplementary translation packs for German, Spanish, and French. The built-in fallback language is English. Translations are created with help of online dictionaries and AI, so wrong translations are possible.
+#### Translations & AI Disclosure
 
-Overall the usage of AI was kept in ideas and debugging. So the AI was in form of GitHub Copilot there to complete lines and in the form of Google Gemini to provide help and working as a dictionary if I want to know how something is basically possible.
+German, Spanish, and French language packs (English fallback) were generated using AI and online dictionaries, so minor translation or naming inconsistencies may occur.
+
+AI was used strictly as an assistant: GitHub Copilot for code completion, and Google Gemini for debugging, translations, and brainstorming.
 
 ---
 
